@@ -1,4 +1,10 @@
-slet preferredWidth = 600
+//: [Previous](@previous) / [Next](@next)
+/*:
+## Canvas size
+ 
+ Set the size of your desired canvas by adjusting the constants on lines 19 and 20.
+ */
+let preferredWidth = 600
 let preferredHeight = 600
 /*:
  ## Required code
@@ -32,8 +38,6 @@ PlaygroundPage.current.liveView = canvas
 
 // Replace this comment with your first comment – what is the goal of the code you're about to write?
 canvas.drawRectangle(at: Point(x: 50, y: 75), width: 100, height: 200)
-
-canvas.
 
 /*:
  ## Show the Live View
