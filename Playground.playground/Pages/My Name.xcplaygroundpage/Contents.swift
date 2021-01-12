@@ -37,27 +37,53 @@ PlaygroundPage.current.liveView = canvas
  */
 
 // Replace this comment with your first comment – what is the goal of the code you're about to write?
-canvas.drawRectangle(at: Point(x: 50, y: 75), width: 100, height: 200)
+canvas.drawAxes(withScale: true, by: 50)
 
-canvas.drawRectangle(at: Point(x: 50, y: 75), width: 100, height: 200)
 
 canvas.drawShapesWithBorders = true
 
 canvas.fillColor = Color.white
 
 canvas.drawEllipse(at: Point(x:150, y: 400), width: 100, height: 100)
-/*:
- ## Show the Live View
- Don't see any results?
- 
- Remember to show the Live View (1 then 2):
- 
- ![timeline](timeline.png "Timeline")
 
- ## Use source control
- To keep your work organized, receive feedback, and earn a high grade in this course, regular use of source control is a must.
- 
- Please commit and push your work often.
- 
- ![source_control](source-control.png "Source Control")
- */
+canvas.fillColor = Color.black
+
+canvas.drawEllipse(at: Point(x:105, y: 445), width: 40, height: 40)
+
+canvas.fillColor = Color.black
+
+canvas.drawEllipse(at: Point(x:197, y: 445), width: 40, height: 40)
+
+canvas.fillColor = Color.black
+
+canvas.drawEllipse(at: Point(x:130, y: 415), width: 10, height: 10)
+
+canvas.fillColor = Color.black
+
+canvas.drawEllipse(at: Point(x:170, y: 415), width: 10, height: 10)
+
+canvas.drawRectangle(at: Point(x:125, y: 375), width: 50, height: 2)
+
+canvas.fillColor = Color.white
+
+canvas.drawEllipse(at: Point(x:150, y: 280), width: 150, height: 150)
+
+canvas.fillColor = Color.black
+
+canvas.drawEllipse(at: Point(x:150, y: 280), width: 110, height: 115)
+
+canvas.fillColor = Color.white
+
+canvas.drawEllipse(at: Point(x:150, y: 280), width: 50, height: 50)
+
+canvas.fillColor = Color.black
+
+canvas.drawEllipse(at: Point(x:100, y: 200), width: 55, height: 55)
+
+canvas.fillColor = Color.black
+
+canvas.drawEllipse(at: Point(x:200, y: 200), width: 55, height: 55)
+
+canvas.fillColor = Color.black
+
+canvas.drawEllipse(at: Point(x:150, y: 280), width: 25, height: 25)
