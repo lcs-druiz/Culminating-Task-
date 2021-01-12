@@ -39,8 +39,8 @@ PlaygroundPage.current.liveView = canvas
 // Replace this comment with your first comment – what is the goal of the code you're about to write?
 canvas.drawAxes(withScale: true, by: 50)
 
-
 canvas.drawShapesWithBorders = true
+
 
 canvas.fillColor = Color.white
 
@@ -87,3 +87,15 @@ canvas.drawEllipse(at: Point(x:200, y: 200), width: 55, height: 55)
 canvas.fillColor = Color.black
 
 canvas.drawEllipse(at: Point(x:150, y: 280), width: 25, height: 25)
+
+canvas.fillColor = Color.black
+
+canvas.drawEllipse(at: Point(x:85, y: 350), width: 40, height: 40)
+
+canvas.fillColor = Color.black
+
+canvas.drawEllipse(at: Point(x:215, y: 350), width: 40, height: 40)
+
+canvas.fillColor = Color.black
+
+canvas.drawEllipse(at: Point(x:150, y: 395), width: 10, height: 20)
