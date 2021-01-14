@@ -41,6 +41,43 @@ canvas.drawAxes(withScale: true, by: 50)
 
 canvas.drawShapesWithBorders = true
 
+//Background colour
+canvas.fillColor = Color(hue: 230, saturation: 50, brightness: 90, alpha: 100)
+
+// Draw my background
+canvas.drawRectangle(at: Point(x: 0, y: 0), width: canvas.width, height: canvas.height)
+
+canvas.fillColor = Color.white
+
+canvas.drawEllipse(at: Point(x:50, y: 550), width: 30, height: 30)
+
+canvas.fillColor = Color.white
+
+canvas.drawEllipse(at: Point(x:70, y: 535), width: 30, height: 30)
+
+canvas.fillColor = Color.white
+
+canvas.drawEllipse(at: Point(x:70, y: 560), width: 30, height: 30)
+
+canvas.fillColor = Color.white
+
+canvas.drawEllipse(at: Point(x:90, y: 550), width: 30, height: 30)
+
+canvas.fillColor = Color.white
+
+canvas.drawEllipse(at: Point(x:200, y: 550), width: 30, height: 30)
+
+canvas.fillColor = Color.white
+
+canvas.drawEllipse(at: Point(x:220, y: 535), width: 30, height: 30)
+
+canvas.fillColor = Color.white
+
+canvas.drawEllipse(at: Point(x:220, y: 560), width: 30, height: 30)
+
+canvas.fillColor = Color.white
+
+canvas.drawEllipse(at: Point(x:240, y: 550), width: 30, height: 30)
 
 canvas.fillColor = Color.white
 
@@ -99,3 +136,5 @@ canvas.drawEllipse(at: Point(x:215, y: 350), width: 40, height: 40)
 canvas.fillColor = Color.black
 
 canvas.drawEllipse(at: Point(x:150, y: 395), width: 10, height: 20)
+
+

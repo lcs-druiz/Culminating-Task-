@@ -37,20 +37,38 @@ PlaygroundPage.current.liveView = canvas
  */
 
 // Replace this comment with your first comment – what is the goal of the code you're about to write?
-canvas.drawRectangle(at: Point(x: 50, y: 75), width: 100, height: 200)
 
-/*:
- ## Show the Live View
- Don't see any results?
- 
- Remember to show the Live View (1 then 2):
- 
- ![timeline](timeline.png "Timeline")
+canvas.drawAxes(withScale: true, by: 50)
 
- ## Use source control
- To keep your work organized, receive feedback, and earn a high grade in this course, regular use of source control is a must.
- 
- Please commit and push your work often.
- 
- ![source_control](source-control.png "Source Control")
- */
+canvas.drawShapesWithBorders = true
+
+//Bright green
+canvas.fillColor = Color(hue: 120, saturation: 80, brightness: 100, alpha: 100)
+
+//Draw square
+canvas.drawRectangle(at: Point(x: 50, y: 50), width: 100, height: 100)
+
+//Darker green
+canvas.fillColor = Color(hue: 120, saturation: 80, brightness: 25, alpha: 100)
+
+//Draw another square to the right
+canvas.drawRectangle(at: Point(x: 150, y: 50), width: 100, height: 100)
+
+
+
+//Darker green
+canvas.fillColor = Color(hue: 120, saturation: 80, brightness: 25, alpha: 100)
+//Draw square
+canvas.drawRectangle(at: Point(x: 50, y: 150), width: 100, height: 100)
+
+//Bright green
+canvas.fillColor = Color(hue: 120, saturation: 80, brightness: 100, alpha: 100)
+//Draw another square to the right
+canvas.drawRectangle(at: Point(x: 150, y: 150), width: 100, height: 100)
+
+
+
+
+
+
+
