@@ -46,17 +46,24 @@ canvas.drawShapesWithBorders = true
 canvas.fillColor = Color(hue: 0, saturation: 200, brightness: 50, alpha: 100)
 
 //Draw square
-canvas.drawRectangle(at: Point(x: 50, y: 50), width: 500, height: 500)
+canvas.drawRectangle(at: Point(x: 50, y: 50), width: 500, height: 500, anchoredBy: .bottomLeft, borderWidth: 15)
 
+canvas.borderColor = Color.black
 
-canvas.fillColor = Color(hue: 100, saturation: 100, brightness: 100, alpha: 100)
+canvas.defaultBorderWidth = 20
 
-//Draw Ellipse
-canvas.drawEllipse(at: Point(x:180, y: 425), width: 150, height: 150)
+//Draw Rectangle (eyes)
+canvas.drawRectangle(at: Point(x:100, y: 350), width: 150, height: 150)
 
-//Draw Ellipse
-canvas.drawEllipse(at: Point(x: 420, y: 425), width: 150, height: 150)
+//Draw Rectangle (eyes)
+canvas.drawRectangle(at: Point(x: 350, y: 350), width: 150, height: 150)
 
+canvas.drawRectangle(at: Point(x: 100, y: 150), width: 100, height: 100)
 
+canvas.drawRectangle(at: Point(x: 200, y: 150), width: 100, height: 100)
 
+canvas.drawRectangle(at: Point(x: 300, y: 150), width: 100, height: 100)
 
+canvas.drawRectangle(at: Point(x: 400, y: 150), width: 100, height: 100)
+
+canvas.drawRectangle(at: Point(x: 295, y: 560), width: 10, height: 150)
