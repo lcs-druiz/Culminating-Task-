@@ -137,4 +137,34 @@ canvas.fillColor = Color.black
 
 canvas.drawEllipse(at: Point(x:150, y: 395), width: 10, height: 20)
 
+canvas.fillColor = Color.green
 
+//draw floor
+canvas.drawRectangle(at: Point(x:0, y: 95), width: 300, height: 100)
+
+//draw floor
+canvas.drawRectangle(at: Point(x:0, y: 30), width: 300, height: 70)
+
+//draw sun
+canvas.fillColor = Color.yellow
+
+canvas.drawEllipse(at: Point(x: 300, y: 600), width: 70, height: 70)
+
+canvas.drawEllipse(at: Point(x: 250, y: 600), width: 8, height: 8)
+
+canvas.drawEllipse(at: Point(x: 260, y: 580), width: 8, height: 8)
+
+canvas.drawEllipse(at: Point(x: 280, y: 560), width: 8, height: 8)
+
+canvas.drawEllipse(at: Point(x: 300, y: 550), width: 8, height: 8)
+
+canvas.fillColor = Color.green
+
+//draw bambu
+canvas.drawRectangle(at: Point(x: 50, y: 195), width: 10, height: 200)
+
+canvas.drawRectangle(at: Point(x: 250, y: 195), width: 10, height: 200)
+
+canvas.drawRectangle(at: Point(x: 40, y: 195), width: 5, height: 100)
+
+canvas.drawRectangle(at: Point(x: 270, y: 195), width: 5, height: 100)
