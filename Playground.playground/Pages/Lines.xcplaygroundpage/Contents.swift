@@ -55,7 +55,7 @@ canvas.defaultBorderWidth = 20
 //Draw Rectangle (eyes)
 canvas.drawRectangle(at: Point(x:100, y: 350), width: 150, height: 150)
 
-//Draw Rectangle (eyes)
+//Draw Rectangle (mouth)
 canvas.drawRectangle(at: Point(x: 350, y: 350), width: 150, height: 150)
 
 canvas.drawRectangle(at: Point(x: 100, y: 150), width: 100, height: 100)
@@ -67,3 +67,14 @@ canvas.drawRectangle(at: Point(x: 300, y: 150), width: 100, height: 100)
 canvas.drawRectangle(at: Point(x: 400, y: 150), width: 100, height: 100)
 
 canvas.drawRectangle(at: Point(x: 295, y: 560), width: 10, height: 150)
+
+//draw eyes
+canvas.drawLine(from: Point(x: 500, y: 500), to: Point(x: 350, y: 350), lineWidth: 5)
+
+canvas.drawLine(from: Point(x: 250, y: 500), to: Point(x: 100, y: 350), lineWidth: 5)
+
+canvas.drawLine(from: Point(x: 500, y: 350), to: Point(x: 350, y: 500), lineWidth: 5)
+
+canvas.drawLine(from: Point(x: 250, y: 350), to: Point(x: 100, y: 500), lineWidth: 5)
+
+
