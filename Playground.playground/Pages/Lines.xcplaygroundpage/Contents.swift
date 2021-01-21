@@ -77,4 +77,16 @@ canvas.drawLine(from: Point(x: 500, y: 350), to: Point(x: 350, y: 500), lineWidt
 
 canvas.drawLine(from: Point(x: 250, y: 350), to: Point(x: 100, y: 500), lineWidth: 5)
 
+canvas.drawText(message: "X", at: Point(x: 142, y: 185))
 
+canvas.drawText(message: "X", at: Point(x: 242, y: 185))
+
+canvas.drawText(message: "X", at: Point(x: 342, y: 185))
+
+canvas.drawText(message: "X", at: Point(x: 442, y: 185))
+
+canvas.drawLine(from: Point(x: 100, y: 200), to: Point(x:200 , y: 200 ), lineWidth: 5)
+
+canvas.drawLine(from: Point(x: 200, y: 200), to: Point(x:400 , y: 200 ), lineWidth: 5)
+
+canvas.drawLine(from: Point(x: 400, y: 200), to: Point(x:500 , y: 200 ), lineWidth: 5)
