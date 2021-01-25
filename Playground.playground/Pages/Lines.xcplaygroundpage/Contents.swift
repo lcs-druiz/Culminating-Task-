@@ -77,16 +77,41 @@ canvas.drawLine(from: Point(x: 500, y: 350), to: Point(x: 350, y: 500), lineWidt
 
 canvas.drawLine(from: Point(x: 250, y: 350), to: Point(x: 100, y: 500), lineWidth: 5)
 
-canvas.drawText(message: "X", at: Point(x: 142, y: 185))
+canvas.drawText(message: "BOOM", at: Point(x: 113, y: 185))
 
-canvas.drawText(message: "X", at: Point(x: 242, y: 185))
+canvas.drawText(message: "BOOM", at: Point(x: 213, y: 185))
 
-canvas.drawText(message: "X", at: Point(x: 342, y: 185))
+canvas.drawText(message: "BOOM", at: Point(x: 313, y: 185))
 
-canvas.drawText(message: "X", at: Point(x: 442, y: 185))
+canvas.drawText(message: "BOOM", at: Point(x: 413, y: 185))
 
-canvas.drawLine(from: Point(x: 100, y: 200), to: Point(x:200 , y: 200 ), lineWidth: 5)
+//Draw fire like
 
-canvas.drawLine(from: Point(x: 200, y: 200), to: Point(x:400 , y: 200 ), lineWidth: 5)
+canvas.drawText(message: "X", at: Point(x: 290, y: 710))
 
-canvas.drawLine(from: Point(x: 400, y: 200), to: Point(x:500 , y: 200 ), lineWidth: 5)
+canvas.drawText(message: "X", at: Point(x: 280, y: 700))
+
+canvas.drawText(message: "X", at: Point(x: 285, y: 705))
+
+canvas.drawText(message: "X", at: Point(x: 300, y: 710))
+
+canvas.drawText(message: "X", at: Point(x: 310, y: 700))
+
+canvas.drawText(message: "X", at: Point(x: 295, y: 705))
+
+canvas.drawText(message: "X", at: Point(x: 300, y: 715))
+
+canvas.drawText(message: "X", at: Point(x: 300, y: 720))
+
+canvas.drawText(message: "X", at: Point(x: 305, y: 735))
+
+canvas.drawText(message: "X", at: Point(x: 310, y: 715))
+
+canvas.drawText(message: "X", at: Point(x: 310, y: 720))
+
+canvas.drawText(message: "X", at: Point(x: 315, y: 715))
+
+
+
+
+
