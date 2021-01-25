@@ -69,6 +69,11 @@ canvas.drawRectangle(at: Point(x: 400, y: 150), width: 100, height: 100)
 canvas.drawRectangle(at: Point(x: 295, y: 560), width: 10, height: 150)
 
 //draw eyes
+
+canvas.drawText(message: "GAME", at: Point(x: 137, y: 410))
+
+canvas.drawText(message: "OVER", at: Point(x: 387, y: 410))
+
 canvas.drawLine(from: Point(x: 500, y: 500), to: Point(x: 350, y: 350), lineWidth: 5)
 
 canvas.drawLine(from: Point(x: 250, y: 500), to: Point(x: 100, y: 350), lineWidth: 5)
@@ -111,7 +116,32 @@ canvas.drawText(message: "X", at: Point(x: 310, y: 720))
 
 canvas.drawText(message: "X", at: Point(x: 315, y: 715))
 
+canvas.drawText(message: "X", at: Point(x: 300, y: 710))
 
+canvas.drawText(message: "X", at: Point(x: 290, y: 700))
 
+canvas.drawText(message: "X", at: Point(x: 295, y: 705))
+
+canvas.drawText(message: "X", at: Point(x: 310, y: 710))
+
+canvas.drawText(message: "X", at: Point(x: 320, y: 700))
+
+canvas.drawText(message: "X", at: Point(x: 305, y: 705))
+
+canvas.drawText(message: "X", at: Point(x: 310, y: 715))
+
+canvas.drawText(message: "X", at: Point(x: 310, y: 720))
+
+canvas.drawText(message: "X", at: Point(x: 315, y: 735))
+
+canvas.drawText(message: "X", at: Point(x: 320, y: 715))
+
+canvas.drawText(message: "X", at: Point(x: 320, y: 720))
+
+canvas.drawText(message: "X", at: Point(x: 325, y: 715))
+
+canvas.drawText(message: "X", at: Point(x: 310, y: 745))
+
+canvas.drawText(message: "X", at: Point(x: 310, y: 740))
 
 
