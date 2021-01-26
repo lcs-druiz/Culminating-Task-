@@ -35,8 +35,7 @@ PlaygroundPage.current.liveView = canvas
  [Documentation](http://russellgordon.ca/CanvasGraphics/Documentation/) is available.
 
  */
-
-// Replace this comment with your first comment – what is the goal of the code you're about to write?
+canvas.highPerformance = true
 
 canvas.drawAxes(withScale: true, by: 50)
 
@@ -69,7 +68,7 @@ canvas.drawRectangle(at: Point(x: 400, y: 150), width: 100, height: 100)
 canvas.drawRectangle(at: Point(x: 295, y: 560), width: 10, height: 150)
 
 //draw eyes
-
+canvas.textColor = Color.red
 canvas.drawText(message: "GAME", at: Point(x: 137, y: 410))
 
 canvas.drawText(message: "OVER", at: Point(x: 387, y: 410))
@@ -91,6 +90,7 @@ canvas.drawText(message: "BOOM", at: Point(x: 313, y: 185))
 canvas.drawText(message: "BOOM", at: Point(x: 413, y: 185))
 
 //Draw fire like
+canvas.textColor = Color.orange
 
 canvas.drawText(message: "X", at: Point(x: 290, y: 710))
 
@@ -114,6 +114,8 @@ canvas.drawText(message: "X", at: Point(x: 310, y: 715))
 
 canvas.drawText(message: "X", at: Point(x: 310, y: 720))
 
+canvas.textColor = Color.red
+
 canvas.drawText(message: "X", at: Point(x: 315, y: 715))
 
 canvas.drawText(message: "X", at: Point(x: 300, y: 710))
@@ -130,6 +132,8 @@ canvas.drawText(message: "X", at: Point(x: 305, y: 705))
 
 canvas.drawText(message: "X", at: Point(x: 310, y: 715))
 
+canvas.textColor = Color.orange
+
 canvas.drawText(message: "X", at: Point(x: 310, y: 720))
 
 canvas.drawText(message: "X", at: Point(x: 315, y: 735))
@@ -144,4 +148,14 @@ canvas.drawText(message: "X", at: Point(x: 310, y: 745))
 
 canvas.drawText(message: "X", at: Point(x: 310, y: 740))
 
+canvas.drawText(message: "X", at: Point(x: 350, y: 730))
 
+canvas.drawText(message: "X", at: Point(x: 340, y: 720))
+
+canvas.drawText(message: "X", at: Point(x: 330, y: 710))
+
+canvas.drawText(message: "X", at: Point(x: 320, y: 675))
+
+canvas.drawText(message: "X", at: Point(x: 270, y: 730))
+
+canvas.highPerformance = false
