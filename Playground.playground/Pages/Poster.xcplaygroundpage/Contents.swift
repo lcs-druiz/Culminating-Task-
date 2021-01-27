@@ -48,9 +48,9 @@ canvas.drawRectangle(at: Point(x: 0, y: 0), width: canvas.width, height: canvas.
 canvas.drawShapesWithBorders = true
 
 
-canvas.drawLine(from: Point(x:50 ,y: 100 ), to: Point(x:350 ,y:100 ), lineWidth: 5)
+canvas.drawLine(from: Point(x:1 ,y: 100 ), to: Point(x:400 ,y:100 ), lineWidth: 5)
 
-canvas.drawLine(from: Point(x:50 ,y: 200 ), to: Point(x:350 ,y:200 ), lineWidth: 5)
+canvas.drawLine(from: Point(x:1 ,y: 200 ), to: Point(x:400 ,y:200 ), lineWidth: 5)
 
 canvas.drawLine(from: Point(x:50 ,y: 300 ), to: Point(x:350 ,y:300 ), lineWidth: 5)
 
@@ -58,13 +58,15 @@ canvas.drawLine(from: Point(x:50 ,y: 100 ), to: Point(x:50 ,y:400 ), lineWidth: 
 
 canvas.drawLine(from: Point(x:350 ,y: 100 ), to: Point(x:350 ,y:400 ), lineWidth: 5)
 
-canvas.drawLine(from: Point(x:50 ,y:400 ), to: Point(x:350 ,y:400 ), lineWidth: 5)
+canvas.drawLine(from: Point(x:50 ,y: 400 ), to: Point(x:350 ,y:400 ), lineWidth: 5)
 
 canvas.drawLine(from: Point(x:100 ,y: 100 ), to: Point(x:100 ,y:400 ), lineWidth: 5)
 
 canvas.drawLine(from: Point(x:150 ,y: 100 ), to: Point(x:150 ,y:400 ), lineWidth: 5)
 
-canvas.drawLine(from: Point(x:200 ,y: 100 ), to: Point(x:200 ,y:400 ), lineWidth: 5)
+canvas.drawLine(from: Point(x:200 ,y: 100 ), to: Point(x:200 ,y:200 ), lineWidth: 5)
+
+canvas.drawLine(from: Point(x:200 ,y: 300 ), to: Point(x:200 ,y:400 ), lineWidth: 5)
 
 canvas.drawLine(from: Point(x:250 ,y: 100 ), to: Point(x:250 ,y:400 ), lineWidth: 5)
 
@@ -74,11 +76,53 @@ canvas.drawLine(from: Point(x:100 ,y: 100 ), to: Point(x:100 ,y:400 ), lineWidth
 
 canvas.drawLine(from: Point(x:399 ,y: 100 ), to: Point(x:399 ,y:400 ), lineWidth: 5)
 
-canvas.drawLine(from: Point(x:1 ,y: 100 ), to: Point(x:1 ,y:400 ), lineWidth: 5)
+canvas.drawLine(from: Point(x:1 ,y: 100 ), to: Point(x: 1 ,y: 400 ), lineWidth: 5)
 
-canvas.drawLine(from: Point(x:1 ,y:400 ), to: Point(x:400 ,y: 400), lineWidth: 5)
+canvas.drawLine(from: Point(x:1 ,y: 400 ), to: Point(x: 400 ,y: 400), lineWidth: 5)
 
-canvas.drawLine(from: Point(x:1 ,y:100 ), to: Point(x:400 ,y: 100), lineWidth: 5)
+canvas.drawLine(from: Point(x:1 ,y: 100 ), to: Point(x: 400 ,y: 100), lineWidth: 5)
+
+canvas.drawLine(from: Point(x:1 ,y:350 ), to: Point(x:400 ,y: 350), lineWidth: 5)
+
+canvas.drawLine(from: Point(x:1 ,y:150 ), to: Point(x:400 ,y: 150), lineWidth: 5)
+
+canvas.drawLine(from: Point(x: 150,y: 250 ), to: Point(x: 250,y: 250 ), lineWidth: 5)
+
+canvas.drawLine(from: Point(x: 1,y: 250 ), to: Point(x: 50,y: 250 ), lineWidth: 5)
+
+canvas.drawLine(from: Point(x: 350,y: 250 ), to: Point(x: 400,y: 250 ), lineWidth: 5)
+
+canvas.drawLine(from: Point(x: 1,y: 300 ), to: Point(x: 50,y: 300 ), lineWidth: 5)
+
+canvas.drawLine(from: Point(x: 350,y: 300 ), to: Point(x: 400,y: 300 ), lineWidth: 5)
+
+//draw left hand with rectangles
+
+canvas.drawLine(from: Point(x: 315 ,y:216 ), to: Point(x:315 ,y: 258 ), lineWidth: 5)
+
+canvas.drawRectangle(at: Point(x:85 ,y:250 ), width: 30 , height: 10 )
+
+canvas.drawRectangle(at: Point(x:85 ,y:238 ), width: 30 , height: 10 )
+
+canvas.drawRectangle(at: Point(x:85 ,y:226 ), width: 30 , height: 10 )
+
+canvas.drawRectangle(at: Point(x:85 ,y:214 ), width: 30 , height: 10 )
+
+canvas.drawRectangle(at: Point(x:118 ,y:230 ), width: 7 , height: 30 )
+
+//draw right hand with rectangles
+
+canvas.drawLine(from: Point(x: 85 ,y:216 ), to: Point(x:85 ,y: 258 ), lineWidth: 5)
+
+canvas.drawRectangle(at: Point(x:285 ,y:250 ), width: 30 , height: 10 )
+
+canvas.drawRectangle(at: Point(x:285 ,y:238 ), width: 30 , height: 10 )
+
+canvas.drawRectangle(at: Point(x:285 ,y:226 ), width: 30 , height: 10 )
+
+canvas.drawRectangle(at: Point(x:285 ,y:214 ), width: 30 , height: 10 )
+
+canvas.drawRectangle(at: Point(x:275 ,y:230 ), width: 7 , height: 30 )
 
 canvas.highPerformance = false
 /*:
