@@ -45,9 +45,26 @@ canvas.fillColor = Color(hue: 10, saturation: 10, brightness: 10, alpha: 100)
 // Draw my background
 canvas.drawRectangle(at: Point(x: 0, y: 0), width: canvas.width, height: canvas.height)
 
+//draw eyes
 canvas.drawShapesWithBorders = true
 
+canvas.fillColor = Color.green
 
+canvas.drawEllipse(at: Point(x: 175 ,y: 275 ), width: 30, height: 20)
+
+canvas.drawEllipse(at: Point(x: 225 ,y: 275 ), width: 30, height: 20)
+
+canvas.fillColor = Color.black
+
+canvas.drawEllipse(at: Point(x: 175,y:275 ), width: 10, height: 10)
+
+canvas.drawEllipse(at: Point(x: 225,y:275 ), width: 10, height: 10)
+
+canvas.fillColor = Color.green
+
+canvas.drawShapesWithBorders = true
+
+//draw cell
 canvas.drawLine(from: Point(x:1 ,y: 100 ), to: Point(x:400 ,y:100 ), lineWidth: 5)
 
 canvas.drawLine(from: Point(x:1 ,y: 200 ), to: Point(x:400 ,y:200 ), lineWidth: 5)
@@ -96,6 +113,8 @@ canvas.drawLine(from: Point(x: 1,y: 300 ), to: Point(x: 50,y: 300 ), lineWidth: 
 
 canvas.drawLine(from: Point(x: 350,y: 300 ), to: Point(x: 400,y: 300 ), lineWidth: 5)
 
+canvas.drawLine(from: Point(x:200 ,y:200 ), to: Point(x:200 ,y:300 ), lineWidth: 5)
+
 //draw left hand with rectangles
 
 canvas.drawLine(from: Point(x: 315 ,y:216 ), to: Point(x:315 ,y: 258 ), lineWidth: 5)
@@ -123,6 +142,17 @@ canvas.drawRectangle(at: Point(x:285 ,y:226 ), width: 30 , height: 10 )
 canvas.drawRectangle(at: Point(x:285 ,y:214 ), width: 30 , height: 10 )
 
 canvas.drawRectangle(at: Point(x:275 ,y:230 ), width: 7 , height: 30 )
+
+//draw floor
+canvas.fillColor = Color.black
+canvas.drawRectangle(at: Point(x:0 ,y:0 ), width: 400, height: 97)
+
+canvas.drawRectangle(at: Point(x:0 ,y:400 ), width: 400, height: 200)
+
+//Text
+canvas.textColor = Color.white
+canvas.drawText(message: "Jailbreak", at: Point(x: 100, y: 450))
+
 
 canvas.highPerformance = false
 /*:
