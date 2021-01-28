@@ -158,4 +158,103 @@ canvas.drawText(message: "X", at: Point(x: 320, y: 675))
 
 canvas.drawText(message: "X", at: Point(x: 270, y: 730))
 
+canvas.textColor = Color.orange
+
+canvas.drawText(message: "X", at: Point(x: 270, y: 690))
+
+canvas.drawText(message: "X", at: Point(x: 260, y: 680))
+
+canvas.drawText(message: "X", at: Point(x: 265, y: 685))
+
+canvas.drawText(message: "X", at: Point(x: 280, y: 690))
+
+canvas.drawText(message: "X", at: Point(x: 290, y: 680))
+
+canvas.drawText(message: "X", at: Point(x: 275, y: 685))
+
+canvas.drawText(message: "X", at: Point(x: 270, y: 695))
+
+canvas.drawText(message: "X", at: Point(x: 280, y: 700))
+
+canvas.drawText(message: "X", at: Point(x: 285, y: 715))
+
+canvas.drawText(message: "X", at: Point(x: 290, y: 695))
+
+canvas.drawText(message: "X", at: Point(x: 290, y: 700))
+
+canvas.textColor = Color.red
+
+canvas.drawText(message: "X", at: Point(x: 295, y: 695))
+
+canvas.drawText(message: "X", at: Point(x: 280, y: 690))
+
+canvas.drawText(message: "X", at: Point(x: 270, y: 680))
+
+canvas.drawText(message: "X", at: Point(x: 275, y: 685))
+
+canvas.drawText(message: "X", at: Point(x: 290, y: 690))
+
+canvas.drawText(message: "X", at: Point(x: 300, y: 680))
+
+canvas.drawText(message: "X", at: Point(x: 305, y: 685))
+
+canvas.drawText(message: "X", at: Point(x: 290, y: 675))
+
+canvas.textColor = Color.orange
+
+canvas.drawText(message: "X", at: Point(x: 290, y: 700))
+
+canvas.drawText(message: "X", at: Point(x: 285, y: 715))
+
+canvas.drawText(message: "X", at: Point(x: 300, y: 695))
+
+canvas.drawText(message: "X", at: Point(x: 300, y: 700))
+
+canvas.drawText(message: "X", at: Point(x: 305, y: 695))
+
+canvas.drawText(message: "X", at: Point(x: 290, y: 725))
+
+canvas.drawText(message: "X", at: Point(x: 290, y: 720))
+
+canvas.drawText(message: "X", at: Point(x: 330, y: 710))
+
+canvas.drawText(message: "X", at: Point(x: 320, y: 700))
+
+canvas.drawText(message: "X", at: Point(x: 310, y: 690))
+
+canvas.drawText(message: "X", at: Point(x: 300, y: 655))
+
+canvas.drawText(message: "X", at: Point(x: 250, y: 710))
+
+
+canvas.textColor = Color.red
+canvas.drawText(message: "Dave", at: Point(x:70 ,y: 55), size: 10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 canvas.highPerformance = false
