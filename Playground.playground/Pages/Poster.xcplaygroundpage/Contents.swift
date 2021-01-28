@@ -151,8 +151,41 @@ canvas.drawRectangle(at: Point(x:0 ,y:400 ), width: 400, height: 200)
 
 //Text
 canvas.textColor = Color.white
-canvas.drawText(message: "Jailbreak", at: Point(x: 100, y: 450))
+canvas.drawText(message: "Jailbreak", at: Point(x: 90, y: 410), size: 50)
 
+canvas.drawText(message: "AC/DC", at: Point(x: 20, y: 50), size: 30)
+
+canvas.drawText(message: "'74", at: Point(x: 85, y: 65), size: 10)
+
+//draw decorations
+canvas.drawLine(from: Point(x:0 ,y: 425 ), to: Point(x:400 ,y:435 ), lineWidth: 5)
+
+canvas.drawLine(from: Point(x:0 ,y: 500 ), to: Point(x:325 ,y:420 ), lineWidth: 5)
+
+canvas.drawLine(from: Point(x:0 ,y: 400 ), to: Point(x:325 ,y:500 ), lineWidth: 5)
+
+canvas.textColor = Color.white
+canvas.drawText(message: "------------------------", at: Point(x: 0, y: 460), size: 50)
+
+canvas.drawText(message: "------------------------", at: Point(x: 0, y: 380), size: 50)
+
+canvas.drawText(message: "Angus Young", at: Point(x: 30, y: 510), size: 12)
+
+canvas.drawText(message: "Malcolm Young", at: Point(x: 130, y: 510), size: 12)
+
+canvas.drawText(message: "Brian Johnson", at: Point(x: 230, y: 510), size: 12)
+
+canvas.drawText(message: "Phil Rudo", at: Point(x: 330, y: 510), size: 12)
+
+canvas.drawText(message: "LIVE", at: Point(x: 300, y: 50), size: 30)
+
+canvas.drawText(message: "----------", at: Point(x: 126, y: 50), size: 50)
+
+canvas.drawText(message: "March 16, 2021", at: Point(x: 140, y: 20), size: 20)
+
+canvas.drawText(message: "------------------------", at: Point(x: 0, y: 520), size: 50)
+
+canvas.drawText(message: "Air Canada Centre Presents ...", at: Point(x: 130, y: 560), size: 12)
 
 canvas.highPerformance = false
 /*:
