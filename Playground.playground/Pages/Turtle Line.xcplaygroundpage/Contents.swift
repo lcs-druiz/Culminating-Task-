@@ -35,10 +35,48 @@ PlaygroundPage.current.liveView = canvas
  [Documentation](http://russellgordon.ca/CanvasGraphics/Documentation/) is available.
 
  */
+//move the turtle to the middle buttom
 
-// Replace this comment with your first comment – what is the goal of the code you're about to write?
-canvas.drawRectangle(at: Point(x: 50, y: 75), width: 100, height: 200)
+turtle.forward(steps: canvas.width/2)
+//turtle.drawSelf()
 
+//Move the turtle to the exact middle
+turtle.left(by: 90)
+turtle.forward(steps: canvas.height / 2)
+//turtle.drawSelf()
+
+//Turtle to face to the right
+turtle.right(by: 90)
+//turtle.drawSelf()
+
+//Turtle to the right
+turtle.forward(steps: canvas.height / 5)
+turtle.right(by: 90)
+
+//Turtle down
+turtle.left(by: 360)
+//turtle.drawSelf()
+
+turtle.forward(steps: canvas.height / 20)
+
+//Turtle arrow
+turtle.left(by: 135)
+//turtle.drawSelf()
+turtle.forward(steps: canvas.height / 9)
+
+turtle.left(by: 90)
+//turtle.drawSelf()
+turtle.forward(steps: canvas.height / 9)
+
+turtle.left(by: 135)
+//turtle.drawSelf()
+turtle.forward(steps: canvas.height / 20)
+
+turtle.left(by: 270)
+//turtle.drawSelf()
+
+turtle.forward(steps: canvas.height / 5)
+turtle.right(by: 90)
 /*:
  ## Show the Live View
  Don't see any results?
