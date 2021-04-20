@@ -35,48 +35,55 @@ PlaygroundPage.current.liveView = canvas
  [Documentation](http://russellgordon.ca/CanvasGraphics/Documentation/) is available.
 
  */
-//move the turtle to the middle buttom
+let squareSize = 10
 
-turtle.forward(steps: canvas.width/2)
-//turtle.drawSelf()
+func drawArrow(){
 
-//Move the turtle to the exact middle
-turtle.left(by: 90)
-turtle.forward(steps: canvas.height / 2)
-//turtle.drawSelf()
+turtle.drawSelf()
 
-//Turtle to face to the right
-turtle.right(by: 90)
-//turtle.drawSelf()
+//turtle to make arrow
+    turtle.forward(steps: squareSize * 5)
+    
+    turtle.right(by: 90)
+    turtle.forward(steps: squareSize)
+    
+    turtle.left(by: 135)
+    turtle.forward(steps: Int( round(2 * Double(2).squareRoot() * Double(squareSize))))
+    
+    turtle.left(by: 90)
+    turtle.forward(steps: Int( round(2 * Double(2).squareRoot() * Double(squareSize))))
+    
+    turtle.left(by: 135)
+    turtle.forward(steps: squareSize)
+    
+    turtle.right(by: 90)
+    turtle.forward(steps: squareSize * 5)
+    
+    turtle.left(by: 90)
+    turtle.forward(steps: squareSize * 2)
+    
+    turtle.left(by: 90)
+    
+    turtle.drawSelf()
+    
+}
 
-//Turtle to the right
-turtle.forward(steps: canvas.height / 5)
-turtle.right(by: 90)
 
-//Turtle down
-turtle.left(by: 360)
-//turtle.drawSelf()
+//Bump the turtle up
+turtle.penUp()
+turtle.setX(to: 50)
+turtle.setY(to: 50)
 
-turtle.forward(steps: canvas.height / 20)
 
-//Turtle arrow
-turtle.left(by: 135)
-//turtle.drawSelf()
-turtle.forward(steps: canvas.height / 9)
+for _ in 1...7 {
+    drawArrow()
 
-turtle.left(by: 90)
-//turtle.drawSelf()
-turtle.forward(steps: canvas.height / 9)
+    //Move to position to draw next arrow
+    turtle.penUp()
+    turtle.forward(steps: squareSize * 7)
+}
 
-turtle.left(by: 135)
-//turtle.drawSelf()
-turtle.forward(steps: canvas.height / 20)
 
-turtle.left(by: 270)
-//turtle.drawSelf()
-
-turtle.forward(steps: canvas.height / 5)
-turtle.right(by: 90)
 /*:
  ## Show the Live View
  Don't see any results?
