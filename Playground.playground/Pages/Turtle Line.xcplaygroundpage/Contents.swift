@@ -35,13 +35,16 @@ PlaygroundPage.current.liveView = canvas
  [Documentation](http://russellgordon.ca/CanvasGraphics/Documentation/) is available.
 
  */
+
+
+
 let squareSize = 10
 
-func drawArrow(){
+func drawArrow()
 
-turtle.drawSelf()
-
-//turtle to make arrow
+{
+    turtle.penDown()
+    
     turtle.forward(steps: squareSize * 5)
     
     turtle.right(by: 90)
@@ -64,26 +67,33 @@ turtle.drawSelf()
     
     turtle.left(by: 90)
     
-    turtle.drawSelf()
-    
 }
-
-
-//Bump the turtle up
-turtle.penUp()
-turtle.setX(to: 50)
-turtle.setY(to: 50)
-
-
-for _ in 1...7 {
-    drawArrow()
-
-    //Move to position to draw next arrow
+func startAbove(){
     turtle.penUp()
-    turtle.forward(steps: squareSize * 7)
+    turtle.right(by: 180)
+    turtle.forward(steps: squareSize * 56)
+    turtle.right(by: 90)
+    turtle.forward(steps: squareSize * 4)
+    turtle.right(by: 90)
+    turtle.penDown()
 }
 
 
+// START
+canvas.highPerformance = false
+turtle.penUp()
+
+for _ in 1...16{
+    for _ in 1...8{
+        drawArrow()
+        turtle.penUp()
+        turtle.forward(steps: squareSize * 7)
+    }
+    startAbove()
+}
+canvas.highPerformance = false
+
+//END
 /*:
  ## Show the Live View
  Don't see any results?
