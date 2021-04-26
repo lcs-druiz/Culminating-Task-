@@ -36,8 +36,38 @@ PlaygroundPage.current.liveView = canvas
 
  */
 
-// Replace this comment with your first comment – what is the goal of the code you're about to write?
-canvas.drawRectangle(at: Point(x: 50, y: 75), width: 100, height: 200)
+let squareSize = 10
+// MARK: Functions
+// NOTE: Define the behaviours you wish to "teach" the turtle below
+//       This is a good example of how to apply abstraction to manage (hide) complexity
+//       You may modify or remove these functions as desired
+func drawTess()
+{
+    turtle.penDown()
+    turtle.forward(steps: squareSize * 5)
+    turtle.left(by: 90)
+    turtle.forward(steps: squareSize * 5)
+    turtle.left(by: 50)
+    turtle.forward(steps: squareSize * 7)
+    turtle.right(by: 90)
+    turtle.forward(steps: squareSize * 7)
+    turtle.right(by: 50)
+    turtle.forward(steps: squareSize * 5)
+    turtle.right(by: 90)
+    turtle.forward(steps: squareSize * 5)
+    turtle.right(by: 310)
+    turtle.forward(steps: squareSize * 7)
+    turtle.right(by: 90)
+    turtle.forward(steps: squareSize * 7)
+}
+
+
+// MARK: Actual tesselation code
+drawTess()
+
+
+
+
 
 /*:
  ## Show the Live View
