@@ -72,58 +72,31 @@ func drawTess()
     
     turtle.forward(steps: squareSize * 5)
 
-
+    turtle.right(by: 180)
+    turtle.forward(steps: squareSize * 5)
     //turtle.drawSelf()
 }
-
-func movetonext() {
-    
-    turtle.penDown()
-    turtle.forward(steps: squareSize * -5)
-    turtle.left(by: 90)
-    
-    turtle.forward(steps: squareSize * 7)
-    turtle.left(by: 50)
-    
-    turtle.forward(steps: squareSize * 9)
-    turtle.right(by: 90)
-    
-    turtle.forward(steps: squareSize * 9)
-    turtle.right(by: 50)
-    
-    turtle.forward(steps: squareSize * 7)
-    turtle.right(by: 90)
-    
-    turtle.forward(steps: squareSize * 7)
-    turtle.right(by: 310)
-    
-    turtle.forward(steps: squareSize * 9)
-    turtle.right(by: 90)
-    
-    turtle.forward(steps: squareSize * 9)
-    turtle.right(by: 50)
-    
-    turtle.forward(steps: squareSize * 7)
-
-
-    //turtle.drawSelf()
-}
-
-
-
-
 // MARK: Actual tesselation code
-    drawTess()
-    movetonext()
-    drawTess()
-    movetonext()
-drawTess()
-movetonext()
-drawTess()
-movetonext()
-drawTess()
-movetonext()
 
+drawTess()
+turtle.drawSelf()
+
+for _ in 1...5 {
+    drawTess()
+
+}
+
+turtle.penUp()
+turtle.left(by: 90)
+turtle.forward(steps: squareSize * 15)
+turtle.left(by: 90)
+turtle.forward(steps: squareSize * 61)
+turtle.right(by: 180)
+
+for _ in 1...6 {
+    drawTess()
+
+}
 
 
 
