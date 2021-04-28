@@ -99,6 +99,25 @@ for _ in 1...6 {
 }
 
 
+turtle.penUp()
+turtle.left(by: 90)
+turtle.forward(steps: squareSize * 15)
+turtle.left(by: 90)
+turtle.forward(steps: squareSize * 61)
+turtle.right(by: 180)
+
+for _ in 1...6 {
+    drawTess()
+
+}
+
+
+
+
+
+
+
+
 
 
 /*:
